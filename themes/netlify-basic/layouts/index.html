@@ -1,31 +1,1126 @@
-{{ define "main" }}
-<svg id="background" width='1728' height='1235' viewBox="0 0 1728 1235" fill='none' xmlns='http://www.w3.org/2000/svg'><g opacity='0.75' filter='url(#filter0_f_39_143)'><circle cy='1000' r='264' fill='url(#paint0_linear_39_143)'/></g><g opacity='0.65' filter='url(#filter1_f_39_143)'><circle cx='1720' cy='264' r='379' fill='url(#paint1_linear_39_143)'/></g><defs><filter id='filter0_f_39_143' x='-485' y='515' width='970' height='970' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/><feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/></filter><filter id='filter1_f_39_143' x='1120' y='-336' width='1200' height='1200' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/><feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/></filter><linearGradient id='paint0_linear_39_143' x1='196.5' y1='902' x2='-2.55853e-05' y2='1264' gradientUnits='userSpaceOnUse'><stop stop-color="var(--bttm-left-blur-1)"/><stop offset='1' stop-color="var(--bttm-left-blur-2)"/></linearGradient><linearGradient id='paint1_linear_39_143' x1='1720' y1='-115' x2='1720' y2='643' gradientUnits='userSpaceOnUse'><stop stop-color="var(--top-right-blur-1)"/><stop offset='1' stop-color="var(--top-right-blur-2)" /></linearGradient></defs></svg>     
-<div id="content">
-  <div class="header">
-    <h1>Quickstart Template</h1>
-    <div class="logo">
-      <img src="https://user-images.githubusercontent.com/43764894/223559747-e9d7f19d-91bf-46a9-a0cb-8d6a40d3cfa3.png" alt="netlify + hugo banner" role="presentation">
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+  <title>ClientSide</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <div class="hero_bg_box">
+      <div class="img-box">
+        <img src="images/hero-bg.jpg" alt="">
+      </div>
     </div>
-    <h2>
-      This is a bare-bones Hugo project that has everything you need to quickly deploy it to Netlify
-    </h2>
-    <div class="bttns">
-      <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/hugo-quickstart" class="bttn primary">Deploy to Netlify</a>
-      <a href="https://github.com/netlify-templates/hugo-quickstart" class="bttn secondary">View Repo</a>
+
+    <header class="header_section">
+      <div class="header_top">
+        <div class="container-fluid">
+          <div class="contact_link-container">
+            <a href="" class="contact_link1">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Viale Colle S. Agata, 5. Gaeta (LT)
+              </span>
+            </a>
+            <a href="" class="contact_link2">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Tel. : +39 3351244331
+              </span>
+            </a>
+            <a href="" class="contact_link3">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>
+                info@clientside.it
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+		  <img src="images/clientside.png" alt="" width="100" height="100">
+            <a class="navbar-brand" href="index.html">
+              <span>
+                ClientSide
+              </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""></span>
+            </button>
+
+            <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"> Chi siamo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html"> Servizi </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="guard.html"> Portfolio </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contatti</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class=" slider_section ">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="detail-box">
+                    <h1>
+                      I nostri servizi <br>
+                      <span>
+                        Software development e network engineering
+                      </span>
+                    </h1>
+                    <p>
+                      Strumenti informatici innovativi a servizio della tua organizzazione
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="detail-box">
+                    <h1>
+                      Progettazione <br>
+                      <span>
+                        Application consoulting e digital innovation
+                      </span>
+                    </h1>
+                    <p>
+                      Professionisti certificati per la gestione di sistemi informatici
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="detail-box">
+                    <h1>
+                      Assistenza <br>
+                      <span>
+                        Help Desk e Trouble Ticketing
+                      </span>
+                    </h1>
+                    <p>
+                      Assistenza e consulenza in-house e out-house
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container idicator_container">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 px-0">
+          <div class="img_container">
+            <div class="img-box">
+              <img src="images/about-img.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 px-0">
+          <div class="detail-box">
+            <div class="heading_container ">
+              <h2>
+                Chi siamo
+              </h2>
+            </div>
+            <p>
+              Una società specializzata nello sviluppo di piattaforme
+			  applicative, infrastrutture sistemistiche e architetture
+			  informatiche sulla base delle specifiche esigenze del cliente
+            </p>
+
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="resource-list">
-    <ul>
-      <li>
-        <a href="https://ntl.fyi/3xXydGk">Netlify Blog: Hugo posts</a>
-        </li>
-      <li>
-        <a href="https://ntl.fyi/3P9w1mr">Hugo on Netlify Docs</a>
-      </li>
-      <li>
-        <a href="https://gohugo.io/documentation/">Hugo Docs</a>
-      </li>
-    </ul>
-  </div>
-</div>
-{{ end }}
+  </section>
+
+  <!-- end about section -->
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          I nostri servizi
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box ">
+            <div class="img-box">
+		<svg fill="#000000" height="800px" width="800px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+		viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+		<g id="cloud-software">
+		<path d="M19,5.1L19,5.1C19,2.2,17.1,0,14.5,0h-3.8C8.1,0,6,2.2,6,4.9V5c-3.2,0-6,2.8-6,6s2.8,6,6,6v-2c-2.1,0-4-1.9-4-4s1.9-4,4-4
+		h7V5H8V4.9C8,3.3,9.2,2,10.8,2h3.8C16.2,2,17,3.5,17,5v2h1c2.1,0,4,1.9,4,4c0,2.1-1.9,4-4,4v2c3.3,0,6-2.7,6-6
+		C24,8.1,21.8,5.6,19,5.1z"/>
+		<path d="M7,24h10V11H7V24z M15,15h-2v-2h2V15z M9,13h2v2H9V13z M9,17h6v5H9V17z"/>
+		</g>
+		</svg>
+            </div>
+            <div class="detail-box">
+              <h6>
+                Consulenza informatica e sistemistica 
+              </h6>
+              <p>
+               Progettazione e manutenzione di piattaforme applicative locali e in cloud per le organizzazioni
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box ">
+            <div class="img-box">
+		<svg fill="#000000" width="800px" height="800px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+
+		<g data-name="19 costumer service" id="_19_costumer_service">
+
+		<path d="M37.71,34.54a13.428,13.428,0,0,0,5.51-4.86H46.7a2.915,2.915,0,0,0,2.74-3.06V19.43a3.124,3.124,0,0,0-.2-1.11V18.3a25.246,25.246,0,0,0-5.2-9.54l-.13-.15a15.275,15.275,0,0,0-5.72-3.97,17.135,17.135,0,0,0-14.11.8,15.539,15.539,0,0,0-3.99,3.17l-.13.15a25.246,25.246,0,0,0-5.2,9.54v.02a3.124,3.124,0,0,0-.2,1.11v7.19a2.915,2.915,0,0,0,2.74,3.06h3.48a13.428,13.428,0,0,0,5.51,4.86,20.226,20.226,0,0,0-15.02,19.5V59.5a1,1,0,0,0,1,1H51.73a1,1,0,0,0,1-1V54.04A20.226,20.226,0,0,0,37.71,34.54Zm9.73-15.11v7.19c0,.56-.35,1.06-.74,1.06H44.29c.17-.42.33-.85.46-1.29,0-.01,0-.01.01-.02a13.235,13.235,0,0,0-.1-8H46.7C47.09,18.37,47.44,18.87,47.44,19.43ZM17.3,27.68c-.39,0-.74-.5-.74-1.06V19.43c0-.56.35-1.06.74-1.06h2.04a13.261,13.261,0,0,0,.37,9.31Zm.26-11.31a22.694,22.694,0,0,1,3.89-6.28l.12-.13A13.124,13.124,0,0,1,25.05,7.2a15.268,15.268,0,0,1,12.41-.7,13.159,13.159,0,0,1,4.97,3.46l.12.13a22.694,22.694,0,0,1,3.89,6.28H43.82a13.311,13.311,0,0,0-23.64,0Zm3.11,6.14A11.33,11.33,0,1,1,43.05,25H39.71a2.991,2.991,0,0,0-2.82-2h-3a3,3,0,0,0,0,6h3a2.991,2.991,0,0,0,2.82-2H42.4a11.329,11.329,0,0,1-21.73-4.49Zm17.22,3.48v.02a.994.994,0,0,1-1,.99h-3a1,1,0,0,1,0-2h3A.994.994,0,0,1,37.89,25.99ZM50.73,58.5H13.27V54.04a18.228,18.228,0,0,1,18.2-18.2h1.06a18.228,18.228,0,0,1,18.2,18.2Z"/>
+
+		</g>
+
+		</svg>
+            </div>
+            <div class="detail-box">
+              <h6>
+                Assistenza sulle postazioni di lavoro
+              </h6>
+              <p>
+               Un team di esperti informatici qualificati con capacità di troubleshooting e problem solving
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box ">
+            <div class="img-box">
+		<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 465.057 465.057" style="enable-background:new 0 0 465.057 465.057;" xml:space="preserve">
+	<g>
+	<path d="M156.766,143.002h37.377v25.939h-13.97c-4.142,0-7.5,3.357-7.5,7.5s3.358,7.5,7.5,7.5h104.709c4.143,0,7.5-3.357,7.5-7.5
+		s-3.357-7.5-7.5-7.5h-13.97v-25.939h37.377c14.728,0,26.709-11.981,26.709-26.709V26.737c0-14.728-11.981-26.709-26.709-26.709
+		H156.766c-14.728,0-26.709,11.981-26.709,26.709v89.556C130.057,131.021,142.039,143.002,156.766,143.002z M255.913,168.941h-46.77
+		v-25.939h46.77V168.941z M145.057,26.737c0-6.456,5.252-11.709,11.709-11.709H308.29c6.456,0,11.709,5.253,11.709,11.709v89.556
+		c0,6.456-5.253,11.709-11.709,11.709H156.766c-6.457,0-11.709-5.253-11.709-11.709V26.737z"/>
+	<path d="M178.233,281.115H26.709C11.981,281.115,0,293.097,0,307.824v89.556c0,14.728,11.981,26.709,26.709,26.709h37.377v25.939
+		h-13.97c-4.142,0-7.5,3.357-7.5,7.5s3.358,7.5,7.5,7.5h104.708c4.142,0,7.5-3.357,7.5-7.5s-3.358-7.5-7.5-7.5h-13.969v-25.939
+		h37.377c14.728,0,26.709-11.981,26.709-26.709v-89.556C204.942,293.097,192.96,281.115,178.233,281.115z M125.856,450.028h-46.77
+		v-25.939h46.77V450.028z M189.942,397.38c0,6.456-5.252,11.709-11.709,11.709H26.709c-6.457,0-11.709-5.253-11.709-11.709v-89.556
+		c0-6.456,5.252-11.709,11.709-11.709h151.524c6.457,0,11.709,5.253,11.709,11.709V397.38z"/>
+	<path d="M438.348,281.115H286.823c-14.728,0-26.709,11.981-26.709,26.709v89.556c0,14.728,11.981,26.709,26.709,26.709H324.2
+		v25.939h-13.969c-4.143,0-7.5,3.357-7.5,7.5s3.357,7.5,7.5,7.5h104.708c4.143,0,7.5-3.357,7.5-7.5s-3.357-7.5-7.5-7.5h-13.969
+		v-25.939h37.377c14.728,0,26.709-11.981,26.709-26.709v-89.556C465.057,293.097,453.075,281.115,438.348,281.115z M385.971,450.028
+		H339.2v-25.939h46.771V450.028z M450.057,397.38c0,6.456-5.253,11.709-11.709,11.709H286.823c-6.456,0-11.709-5.253-11.709-11.709
+		v-89.556c0-6.456,5.253-11.709,11.709-11.709h151.524c6.456,0,11.709,5.253,11.709,11.709V397.38z"/>
+	<path d="M355.086,258.615c0,4.143,3.357,7.5,7.5,7.5s7.5-3.357,7.5-7.5v-26.087c0-4.143-3.357-7.5-7.5-7.5H240.028v-18.587
+		c0-4.143-3.357-7.5-7.5-7.5c-4.142,0-7.5,3.357-7.5,7.5v18.587H102.471c-4.142,0-7.5,3.357-7.5,7.5v26.087
+		c0,4.143,3.358,7.5,7.5,7.5s7.5-3.357,7.5-7.5v-18.587h245.115V258.615z"/>
+	</g>
+	</svg>
+            </div>
+            <div class="detail-box">
+              <h6>
+                Progettazione di infrastrutture di rete
+              </h6>
+              <p>
+                Gestione di server bare metal e virtuali, database, backup e sicurezza in sistemi integrati enterprise 
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+
+
+  <!-- client section -->
+
+  <section class="client_section layout_padding">
+    <div class="container ">
+      <div class="heading_container heading_center">
+        <h2>
+          I nostri clienti
+        </h2>
+      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/vallicelliana.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+				 Biblioteca Vallicelliana
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/universita_politecnica_marche.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Università Politecnica delle Marche
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/parco_archeologico_colosseo.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Parco Archeologico del Colosseo
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/fondazione_luigi_einaudi.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Fondazione Luigi Einaudi
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/fondazione_scuola_beni_attivita_culturali.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Fondazione Scuola dei beni e delle attività culturali
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/regione_lazio.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Regione Lazio
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/biblioteca_farandola_fumetto.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Biblioteca del Fumetto La Farandola
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/istituto_italiano_numismatica.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Istituto italiano di Numismatica
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/accademia_nazionale_lincei.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Accademia Nazionale dei lincei
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/circolo_matematico_palermo.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Circolo Matematico di Palermo
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/museo_nazionale_romano.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Museo Nazionale Romano e Palazzo Massimo
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/ministero_cultura.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Ministero della Cultura
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/parco_regionale_appia_antica.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Parco Regionale Appia Antica
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/ministero_turismo.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Ministero del Turismo
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/ministero_giustizia.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Ministero della Giustizia
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/iccu.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Istituto centrale per il catalogo unico
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/italia_nostra.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Italia Nostra
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/comunita_montana_velino.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Comunità Montana del Velino
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/scuola_normale_superiore.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Scuola Normale Superiore di Pisa
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/fondazione_roffredo_caetani.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Fondazione Roffredo Caetani
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/societa_romana_storia_patria.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Società Romana di Storia Patria
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/icpal.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Istituto Centrale per la patologia degli archivi e del libro
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/scuderie_quirinale.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Scuderie del Quirinale
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/parco_archeologico_appia_antica.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Parco Archeologico dell'Appia Antica
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/cepell.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Centro per il libro e la lettura
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/parco_archeologico_ostia_antica.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Parco Archeologico di Ostia Antica
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/biblioteca_nazionale_centrale.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Biblioteca Nazionale Centrale di Roma
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/camera_deputati.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Camera Deputati
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/direzione_generale_cinema_audiovisivo.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Direzione Generale cinema e audiovisivo
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/ministero_interno.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Ministero dell'Interno
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/borghese.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Galleria Borghese
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/istituto_centrale_grafica.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Istituto Centrale per la grafica
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/gcss.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Giunta Centrale per gli studi storici
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/biblioteca_alessandrina.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Biblioteca Alessandrina
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/barberini_corsini.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Gallerie Nazionali Barberini Corsini
+                </p>
+              </div>
+            </div>
+          </div>
+		  <div class="carousel-item ">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/archivio_centrale_stato.png" alt="" style="max-height: 100px; width: auto; margin: auto; dispay: block; margin-left: 0px;">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  
+                </h4>
+                <p>
+                  Archivio Centrale dello Stato
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel_btn-box">
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <!-- contact section -->
+
+  <section class="contact_section layout_padding">
+    <div class="contact_bg_box">
+      <div class="img-box">
+        <img src="images/contact-bg.jpg" alt="">
+      </div>
+    </div>
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Scrivici
+        </h2>
+      </div>
+      <div class="">
+        <div class="row">
+          <div class="col-md-7 mx-auto">
+            <form action="#">
+              <div class="contact_form-container">
+                <div>
+                  <div>
+                    <input type="text" placeholder="Nome e cognome" />
+                  </div>
+                  <div>
+                    <input type="email" placeholder="Email " />
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Numero telefonico" />
+                  </div>
+                  <div class="">
+                    <input type="text" placeholder="Messaggio" class="message_input" />
+                  </div>
+                  <div class="btn-box ">
+                    <button type="submit">
+                      Invia
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end contact section -->
+
+  <!-- team section -->
+
+  <section class="team_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Portfolio
+        </h2>
+        <p>
+          Indicizzazione in banche dati di materiale librario, manoscritto e a stampa, fotografico, archivistico e multimediale.
+		<br></br>
+		  Consulenza e supporto organizzativo o logistico per eventi culturali o corporate, con l'installazione di dispositivi per la registrazione o l'entertainment
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 mx-auto ">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/t1.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Digitalizzazione
+              </h5>
+              <h6 class="">
+                
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mx-auto ">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/t2.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Eventi
+              </h5>
+              <h6 class="">
+                
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mx-auto ">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/t3.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Catalogazione
+              </h5>
+              <h6 class="">
+                
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="">
+          Torna su
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end team section -->
+
+  <!-- info section -->
+  <section class="info_section ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_logo">
+		  <img src="images/clientside.png" alt="" width="100" height="100">
+            <a class="navbar-brand" href="index.html">
+              <span>
+                ClientSide
+              </span>
+            </a>
+            <p>
+              Innovazione tecnologica sostenibile in un mondo digitale in continua evoluzione
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_links">
+            <h5>
+              L'informatica dalla parte del cliente
+            </h5>
+	        <ul>
+            </h5>
+              <li>
+                <a href="">
+                  Strumenti e tecnologie
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  innovative al servizio
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  della valorizzazione
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  del patrimonio culturale
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_info">
+            <h5>
+              Contatti
+            </h5>
+          </div>
+          <div class="info_contact">
+            <a href="" class="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Viale Colle S. Agata, 5. Gaeta (LT)
+              </span>
+            </a>
+            <a href="" class="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Tel. : +39 3351244331 
+              </span>
+            </a>
+            <a href="" class="">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>
+                info@clientside.it
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_form ">
+            <h5>
+              Newsletter
+            </h5>
+            <form action="#">
+              <input type="email" placeholder="La tua email">
+              <button>
+                Sottoscrivi
+              </button>
+            </form>
+            <div class="social_box">
+              <a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+
+
+
+  <!-- footer section -->
+  <footer class="container-fluid footer_section">
+    <p>
+      &copy; <span id="currentYear"></span> Tutti i diritti riservati. Design by
+      <a href="https://www.clientside.it/">ClientSide</a> Distribution by
+      <a href="https://www.clientside.it/">Clientside</a>
+    </p>
+  </footer>
+  <!-- footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
